@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn.Netflix" BackgroundColor="#44146F" Title="Hello me!">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="2" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="2" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="3" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="3" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="4" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="4" />
+            
+        </Grid>
+
+
+        
+	</ContentPage.Content>
+</ContentPage>
