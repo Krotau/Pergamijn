@@ -132,6 +132,27 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\Backbutton.png" />
+    <AndroidResource Include="Resources\drawable\ButtonNetflix.png" />
+    <AndroidResource Include="Resources\drawable\ButtonTv.png" />
+    <AndroidResource Include="Resources\drawable\ButtonYoutube.png" />
+    <AndroidResource Include="Resources\drawable\Card.png" />
+    <AndroidResource Include="Resources\drawable\Forwardbutton.png" />
+    <AndroidResource Include="Resources\drawable\Searchresult.png" />
+    <AndroidResource Include="Resources\drawable\Speaker.png" />
+    <AndroidResource Include="Resources\drawable\buttonid0.png" />
+    <AndroidResource Include="Resources\drawable\buttonid1.png" />
+    <AndroidResource Include="Resources\drawable\buttonid2.png" />
+    <AndroidResource Include="Resources\drawable\buttonid3.png" />
+    <AndroidResource Include="Resources\drawable\buttonid4.png" />
+    <AndroidResource Include="Resources\drawable\buttonid5.png" />
+    <AndroidResource Include="Resources\drawable\buttonid6.png" />
+    <AndroidResource Include="Resources\drawable\buttonid7.png" />
+    <AndroidResource Include="Resources\drawable\buttonid8.png" />
+    <AndroidResource Include="Resources\drawable\buttonid9.png" />
+    <AndroidResource Include="Resources\drawable\buttonin.png" />
+    <AndroidResource Include="Resources\drawable\downarrow.png" />
+    <AndroidResource Include="Resources\drawable\uparrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets')" />

@@ -2,9 +2,9 @@
 
 namespace Pergamijn
 {
-    public partial class PergamijnPage : ContentPage
+    public partial class MainPage : ContentPage
     {
-        public PergamijnPage()
+        public MainPage()
         {
             InitializeComponent();
         }
