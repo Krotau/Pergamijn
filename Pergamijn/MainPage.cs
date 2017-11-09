@@ -17,5 +17,19 @@ namespace Pergamijn
 
             Navigation.PushModalAsync(new Netflix());
         }
+
+        void OnTapYoutube(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+            Navigation.PushModalAsync(new YouTube());
+        }
+
+        void OnTapTv(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+            Navigation.PushModalAsync(new Tv());
+        }
     }
 }

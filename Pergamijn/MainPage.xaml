@@ -26,8 +26,22 @@
                         NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="@drawable/ButtonYoutube.png" Grid.Row="1" Grid.Column="3" />
-            <Image Source="@drawable/ButtonTv.png" Grid.Row="1" Grid.Column="5" />
+            
+            <Image Source="@drawable/ButtonYoutube.png" Grid.Row="1" Grid.Column="3">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTapYoutube"
+                        NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            
+            <Image Source="@drawable/ButtonTv.png" Grid.Row="1" Grid.Column="5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTapTv"
+                        NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

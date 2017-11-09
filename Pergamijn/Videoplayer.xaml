@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn.Videoplayer"
+             BackgroundColor="#ecb841">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Image Source="@drawables/Backbutton.png" Grid.Row="1" Grid.Column="1" />
+            <Image Source="@drawables/uparrow.png" Grid.Row="2" Grid.Column="3" />
+            <Image Source="@drawables/downarrow.png" Grid.Row="4" Grid.Column="3" />
+            <Image Source="@drawables/Speaker.png" Grid.Row="3" Grid.Column="3" />
+            <Image Source="@drawables/Searchresult.png" Grid.Row="2" Grid.Column="2" />
+            <Image Source="@drawables/Card.png" Grid.Row="2" Grid.RowSpan="4" Grid.Column="2" />
+            <Label Text=" " Grid.Row="5" Grid.Column="3" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

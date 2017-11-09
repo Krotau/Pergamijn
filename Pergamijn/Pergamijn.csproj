@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -34,6 +33,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inlogscherm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Videoplayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YouTube.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -45,6 +60,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Netflix.xaml.cs">
       <DependentUpon>Netflix.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inlogscherm.cs">
+      <DependentUpon>Inlogscherm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Videoplayer.xaml.cs">
+      <DependentUpon>Videoplayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tv.xaml.cs">
+      <DependentUpon>Tv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="YouTube.xaml.cs">
+      <DependentUpon>YouTube.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
