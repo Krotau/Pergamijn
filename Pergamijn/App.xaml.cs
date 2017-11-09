@@ -8,7 +8,7 @@ namespace Pergamijn
         {
             InitializeComponent();
 
-            MainPage = new Netflix();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

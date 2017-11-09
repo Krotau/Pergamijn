@@ -4,30 +4,38 @@
              x:Class="Pergamijn.Netflix" BackgroundColor="#44146F" Title="Hello me!">
 
     <ContentPage.Content>
-        <Grid>
+        <Grid ColumnSpacing="50" RowSpacing="60">
+
+            <!-- Drie rows, een voor backbutton en twee voor de netflix kaarten-->
             <Grid.RowDefinitions>
-                <RowDefinition Height="50" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="100" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="200" />
+                <RowDefinition Height="200" />
             </Grid.RowDefinitions>
+            <!-- Vier kollomen, eerste voor backbutton, andere drie voor netflix kaarten-->
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="75" />
                 <ColumnDefinition Width="150" />
-                <ColumnDefinition Width="150" />
-                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="190" />
+                <ColumnDefinition Width="190" />
+                <ColumnDefinition Width="190" />
             </Grid.ColumnDefinitions>
 
-            <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1" />
+            <Image x:Name="BackButton" Source="@drawable/Backbutton.png" Grid.Row="0" Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+            </Image>
+            
+            <Image Source="@drawable/Netflix.png" Grid.Row="1" Grid.Column="1" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="1" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="1" Grid.Column="2" />
             <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="2" />
-            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="2" />
+            <Image Source="@drawable/Netflix.png" Grid.Row="1" Grid.Column="3" />
             <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="3" />
-            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="3" />
-            <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="4" />
-            <Image Source="@drawable/Netflix.png" Grid.Row="3" Grid.Column="4" />
             
         </Grid>
-
-
         
 	</ContentPage.Content>
 </ContentPage>
