@@ -38,3 +38,5 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+/.vs/Pergamijn/v15/Server/sqlite3
+/.vs/Pergamijn/v15/sqlite3
