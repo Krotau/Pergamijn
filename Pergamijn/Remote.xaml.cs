@@ -17,7 +17,7 @@ namespace Pergamijn
             InitializeComponent();
         }
 
-        void OnTapGestureGoBack(object sender, EventArgs args)
+        void OnTapBackRemote(object sender, EventArgs args)
         {
             var imageSender = (Image)sender;
             // Do something

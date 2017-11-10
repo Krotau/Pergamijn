@@ -5,6 +5,7 @@
              BackgroundColor="#c84193">
     <ContentPage.Content>
         <Grid>
+            <!--Verschillende rijen worden gemaakt waarbij deze in het midden zullen staan-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="25" />
                 <RowDefinition Height="*" />
@@ -16,6 +17,7 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="25" />
             </Grid.RowDefinitions>
+            <!--Verschillende kolommen worden gemaakt waarbij de afstand tussen de kolommen hetzelfde is-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -25,10 +27,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" />
-            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="2" />
-            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="3" />
-            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="4" />
+
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
             <Image Source="@drawables/Backbutton.png" Grid.Row="1" Grid.Column="0">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
@@ -36,6 +36,8 @@
                         NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
+
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
             <Image Source="@drawables/Forwardbutton.png" Grid.Row="1" Grid.Column="6">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
@@ -43,6 +45,12 @@
                         NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
+            
+            <!--De verschillende images voor het ontwerp worden toegevoegd, deze hebben op het moment geen functionaliteit-->
+            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" />
+            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="2" />
+            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="3" />
+            <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="4" />
             <Image Source="@drawables/buttonid1.png" Grid.Row="4" Grid.Column="2" />
             <Image Source="@drawables/buttonid2.png" Grid.Row="4" Grid.Column="3" />
             <Image Source="@drawables/buttonid3.png" Grid.Row="4" Grid.Column="4" />

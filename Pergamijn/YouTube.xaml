@@ -27,7 +27,7 @@
             <Image x:Name="BackButton" Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
-                            Tapped="OnTapGestureRecognizerBack"
+                            Tapped="OnTapBackYoutube"
                             NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>

@@ -12,7 +12,7 @@ namespace Pergamijn
             InitializeComponent();
         }
 
-        void OnTapGestureRecognizerBack(object sender, EventArgs args)
+        void OnTapBackYoutube(object sender, EventArgs args)
         {
             var imageSender = (Image)sender;
             // Do something

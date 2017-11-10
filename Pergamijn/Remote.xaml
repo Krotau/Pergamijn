@@ -24,7 +24,7 @@
             <Image x:Name="BackButton" Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
-                            Tapped="OnTapGestureGoBack"
+                            Tapped="OnTapBackRemote"
                             NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
