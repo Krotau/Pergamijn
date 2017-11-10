@@ -12,6 +12,7 @@
                 <RowDefinition Height="200" />
                 <RowDefinition Height="200" />
             </Grid.RowDefinitions>
+
             <!-- Vier kollomen, eerste voor backbutton, andere drie voor netflix kaarten-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150" />
