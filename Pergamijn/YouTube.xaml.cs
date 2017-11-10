@@ -12,15 +12,20 @@ namespace Pergamijn
             InitializeComponent();
         }
 
-        void OnTapGestureGoBack(object sender, EventArgs args)
+        void OnTapGestureRecognizerBack(object sender, EventArgs args)
         {
+            var imageSender = (Image)sender;
+            // Do something
+
             Navigation.PopModalAsync();
         }
 
         void OnTapVideoYoutube(object sender, EventArgs args)
         {
+            var imageSender = (Image)sender;
+            // Do something
+
             Navigation.PushAsync(new Videoplayer());
-        
         }
     }
 }
