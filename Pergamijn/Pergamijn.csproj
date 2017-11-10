@@ -63,8 +63,11 @@
     <Compile Include="Remote.xaml.cs">
       <DependentUpon>Remote.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Settingsmenu.xaml.cs">
-      <DependentUpon>Settingsmenu.xaml</DependentUpon>
+    <Compile Include="SettingsFavorieten.xaml.cs">
+      <DependentUpon>SettingsFavorieten.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsFillms.xaml.cs">
+      <DependentUpon>SettingsFillms.xaml</DependentUpon>
     </Compile>
     <Compile Include="Videoplayer.xaml.cs">
       <DependentUpon>Videoplayer.xaml</DependentUpon>
@@ -94,7 +97,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Settingsmenu.xaml">
+    <EmbeddedResource Include="SettingsFillms.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SettingsFavorieten.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
