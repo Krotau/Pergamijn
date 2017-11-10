@@ -29,8 +29,23 @@
             <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="2" />
             <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="3" />
             <Image Source="@drawables/buttonin.png" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="4" />
-            <Image Source="@drawables/Backbutton.png" Grid.Row="1" Grid.Column="0" />
-            <Image Source="@drawables/Forwardbutton.png" Grid.Row="1" Grid.Column="6" />
+
+            <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTapBackButtonInlogscherm"
+                        NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image Source="@drawable/Forwardbutton.png" Grid.Row="1" Grid.Column="6">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTapFowardButtonInlogscherm"
+                        NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
             <Image Source="@drawables/buttonid1.png" Grid.Row="4" Grid.Column="2" />
             <Image Source="@drawables/buttonid2.png" Grid.Row="4" Grid.Column="3" />
             <Image Source="@drawables/buttonid3.png" Grid.Row="4" Grid.Column="4" />
