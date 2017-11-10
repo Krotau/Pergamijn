@@ -42,6 +42,15 @@
                         NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
+
+            <Image Source="@drawable/TestButton.png" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTapInlog"
+                        NumberOfTapsRequired="4" />
+                </Image.GestureRecognizers>
+            </Image>
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>
