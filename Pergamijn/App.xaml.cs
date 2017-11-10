@@ -8,7 +8,7 @@ namespace Pergamijn
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Inlogscherm();
         }
 
         protected override void OnStart()
