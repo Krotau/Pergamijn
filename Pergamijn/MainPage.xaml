@@ -5,20 +5,23 @@
     x:Class="Pergamijn.MainPage"
     BackgroundColor="#2168af">
         <ContentPage.Content>
-        <Grid>
+        <!--Spacing toegevoegd zodat de pictogrammen niet tegen elkaar staan-->
+        <Grid ColumnSpacing="30" RowSpacing="30">
+            <!--Deze maakt 1 rij voor de pictogrammen-->
             <Grid.RowDefinitions>
-                <RowDefinition Height="20" />
-                <RowDefinition Height="250" />
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="200" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+            <!-- Deze maakt 3 kolommen voor de pictogrammen-->
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="0" />
                 <ColumnDefinition Width="200" />
-                <ColumnDefinition Width="30" />
                 <ColumnDefinition Width="200" />
-                <ColumnDefinition Width="30" />
                 <ColumnDefinition Width="200" />
             </Grid.ColumnDefinitions>
+
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
             <Image Source="@drawable/ButtonNetflix.png" Grid.Row="1" Grid.Column="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
@@ -27,7 +30,8 @@
                 </Image.GestureRecognizers>
             </Image>
             
-            <Image Source="@drawable/ButtonYoutube.png" Grid.Row="1" Grid.Column="3">
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
+            <Image Source="@drawable/ButtonYoutube.png" Grid.Row="1" Grid.Column="2">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                         Tapped="OnTapYoutube"
@@ -35,7 +39,8 @@
                 </Image.GestureRecognizers>
             </Image>
             
-            <Image Source="@drawable/ButtonTv.png" Grid.Row="1" Grid.Column="5">
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
+            <Image Source="@drawable/ButtonTv.png" Grid.Row="1" Grid.Column="3">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                         Tapped="OnTapTv"
@@ -43,6 +48,7 @@
                 </Image.GestureRecognizers>
             </Image>
 
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
             <Image Source="@drawable/TestButton.png" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
