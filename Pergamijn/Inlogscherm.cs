@@ -26,7 +26,7 @@ namespace Pergamijn
         void OnTapForwardButton(object sender, EventArgs args){
             var imageSender = (Image)sender;
 
-            Navigation.PushModalAsync(new Settingsmenu());
+            Navigation.PushModalAsync(new SettingsFilms());
         }
     }
 }
