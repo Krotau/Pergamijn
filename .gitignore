@@ -38,3 +38,7 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+/.vs/slnx.sqlite
+/.vs/pergamijn/v15
+/.vs/ProjectSettings.json
+/.vs/VSWorkspaceState.json
