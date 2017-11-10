@@ -22,5 +22,12 @@ namespace Pergamijn
             Navigation.PopModalAsync();
         }
 
+        void OnTapVideoNetflix(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            // iets anders
+
+            Navigation.PushModalAsync(new Videoplayer());
+        }
     }
 }
