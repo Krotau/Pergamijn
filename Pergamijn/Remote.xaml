@@ -30,7 +30,7 @@
             <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="3"/>
             <Image Source="@drawable/TV.png" Grid.Row="5" Grid.Column="5"/>
             <Image Source="@drawable/downarrow.png" Grid.Row="7" Grid.Column="3"/>
-            <Image Source="@drawable/buttonid1.png" Grid.Row="3" Grid.Column="5"/>
+            <Image Source="@drawable/buttonid1.png" Grid.Row="3" Grid.Column="5"/>      
             <Image Source="@drawable/Npo1.png" Grid.Row="5" Grid.Column="4"/>
             <Image Source="@drawable/uparrow.png" Grid.Row="7" Grid.Column="3"/>
             <Image Source="@drawable/Speaker.png" Grid.Row="5" Grid.Column="4"/>

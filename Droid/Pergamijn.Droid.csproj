@@ -155,12 +155,6 @@
     <AndroidResource Include="Resources\drawable\uparrow.png" />
     <AndroidResource Include="Resources\drawable\Netflix.png" />
     <AndroidResource Include="Resources\drawable\Youtube.png" />
-    <AndroidResource Include="Resources\drawable\Instelling_menu_films.png" />
-    <AndroidResource Include="Resources\drawable\instelling_menu_favorieten.png" />
-    <AndroidResource Include="Resources\drawable\Tabblad_Favorieten_Donker.png" />
-    <AndroidResource Include="Resources\drawable\Tabblad_Favorieten_Licht.png" />
-    <AndroidResource Include="Resources\drawable\Tabblad_Films_Donker.png" />
-    <AndroidResource Include="Resources\drawable\Tabblad_Films_Licht.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Favorite.png" />

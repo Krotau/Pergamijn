@@ -49,10 +49,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Instellingen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -79,9 +75,6 @@
     </Compile>
     <Compile Include="YouTube.xaml.cs">
       <DependentUpon>YouTube.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Instellingen.xaml.cs">
-      <DependentUpon>Instellingen.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

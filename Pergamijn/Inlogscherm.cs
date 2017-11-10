@@ -16,23 +16,5 @@ namespace Pergamijn
         {
             InitializeComponent();
         }
-
-        void OnTapBackButtonInlogscherm(object sender, EventArgs args)
-        {
-            var imageSender = (Image)sender;
-            // Do something
-
-            Navigation.PopModalAsync();
-        }
-
-        void OnTapFowardButtonInlogscherm(object sender, EventArgs args)
-        {
-            var imageSender = (Image)sender;
-            // Do something
-
-            DisplayAlert("Pagina is niet goed",
-                         "Jim heeft zijn pagina nog niet fatsoenlijk in elkaar gezet",
-                         "Dan maar niet");
-        }
     }
 }

@@ -16,13 +16,5 @@ namespace Pergamijn
         {
             InitializeComponent();
         }
-
-        void OnTapBackButtonVideoplayer(object sender, EventArgs args)
-        {
-            var imageSender = (Image)sender;
-            // Do something
-
-            Navigation.PopModalAsync();
-        }
     }
 }
