@@ -29,7 +29,7 @@ namespace Pergamijn
         {
             var imageSender = (Image)sender;
 
-            Navigation.PushModalAsync(new Tv());
+            Navigation.PushModalAsync(new Remote());
         }
     }
 }
