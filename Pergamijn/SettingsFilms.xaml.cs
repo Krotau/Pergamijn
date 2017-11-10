@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Pergamijn
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SettingsFillms : ContentPage
+    public partial class SettingsFilms : ContentPage
     {
-        public SettingsFillms()
+        public SettingsFilms()
         {
             InitializeComponent();
         }
