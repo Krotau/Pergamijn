@@ -11,29 +11,29 @@
                 <RowDefinition Height="100" />
                 <RowDefinition Height="150" />
                 <RowDefinition Height="150" />
-                <RowDefinition Height="100" />
+                <RowDefinition Height="50" />
             </Grid.RowDefinitions>
             
             <!--Dit heeft dezelfde functie dan de rijen, alleen dan in de anderen richting-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0"/>
                 <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
             </Grid.ColumnDefinitions>
             
             <!-- De benodigde afbeeldingen, met er achter hun positie in het Grid-->
             <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
-            <Image Source="@drawable/Zoekbalk.png" Grid.Row="1" Grid.ColumnSpan="2"  Grid.Column="3"/>
+            <Image Source="@drawable/Zoekbalk.png" Grid.Row="1" Grid.ColumnSpan="3"  Grid.Column="2"/>
             <Image Source="@drawable/Favorite.png" Grid.Row="1" Grid.Column="5"/>
-            <Image Source="@drawable/Youtube.png" Grid.Row="2"  Grid.Column="2"/>
-            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.Colum="2"/>
-            <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="1"/>
+            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2"  Grid.Column="3"/>
+            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="2"/>
             <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="2"/>
             <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="3"/>
-            <Image Source="@drawable/VorigeKnop.png" Grid.Row="4" Grid.Column="3"/>
-            <Image Source="@drawable/MeerKnop.png" Grid.Row="4" Grid.ColumnSpan=""  Grid.Column="4"/>
+            <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="4"/>
+            <Image Source="@drawable/VorigeKnop.png" Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="2"/>
+            <Image Source="@drawable/MeerKnop.png" Grid.Row="4"  Grid.ColumnSpan="2"  Grid.Column="3"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
