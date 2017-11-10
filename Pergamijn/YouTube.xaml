@@ -22,7 +22,25 @@
                 <ColumnDefinition Width="150" />
                 <ColumnDefinition Width="150" />
             </Grid.ColumnDefinitions>
+
+            <!--Dit zorgt voor een functionele (image)button die als back-knop functioneert-->
+            <Image x:Name="BackButton" Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                            Tapped="OnTapGestureGoBack"
+                            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
             
+            <!--Dit zorgt voor een fucntionele (image)button die je doorstuurt naar de videoplayer-->
+            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="3">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                            Tapped="OnTapVideoYoutube"
+                            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
             <!-- De benodigde afbeeldingen, met er achter hun positie in het Grid-->
             <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
             <Image Source="@drawable/Zoekbalk.png" Grid.Row="1" Grid.ColumnSpan="3"  Grid.Column="2"/>

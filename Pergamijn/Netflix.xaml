@@ -35,6 +35,7 @@
                             NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
+            
             <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="1" />
             <Image Source="@drawable/Netflix.png" Grid.Row="1" Grid.Column="2" />
             <Image Source="@drawable/Netflix.png" Grid.Row="2" Grid.Column="2" />

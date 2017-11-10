@@ -11,5 +11,16 @@ namespace Pergamijn
         {
             InitializeComponent();
         }
+
+        void OnTapGestureGoBack(object sender, EventArgs args)
+        {
+            Navigation.PopModalAsync();
+        }
+
+        void OnTapVideoYoutube(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Videoplayer());
+        
+        }
     }
 }

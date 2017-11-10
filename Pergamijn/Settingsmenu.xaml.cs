@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Pergamijn
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Settings menu : ContentPage
+	public partial class Settingsmenu : ContentPage
 	{
-		public Settings menu ()
+		public Settingsmenu ()
 		{
 			InitializeComponent ();
 		}
