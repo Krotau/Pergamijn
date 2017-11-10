@@ -16,5 +16,17 @@ namespace Pergamijn
         {
             InitializeComponent();
         }
+
+        void OnTapBackButton(object sender, EventArgs args){
+            var imageSender = (Image)sender;
+
+            Navigation.PopModalAsync();
+        }
+
+        void OnTapForwardButton(object sender, EventArgs args){
+            var imageSender = (Image)sender;
+
+            Navigation.PushModalAsync(new Settingsmenu());
+        }
     }
 }
