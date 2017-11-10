@@ -3,39 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pergamijn.Remote" BackgroundColor="#639441">
     <ContentPage.Content>
-        <Grid>
+        <Grid RowSpacing="25" ColumnSpacing="50">
             <Grid.RowDefinitions>
-                <RowDefinition Height="50" />
+                <RowDefinition Height="0" />
                 <RowDefinition Height="100" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="20" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="20" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="50" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="200" />
+                <RowDefinition Height="150" />
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="0" />
                 <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="10" />
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="50" />
                 <ColumnDefinition Width="150" />
-                <ColumnDefinition Width="50" />
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="150" />
             </Grid.ColumnDefinitions>
             <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
-            <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="3"/>
-            <Image Source="@drawable/TV.png" Grid.Row="5" Grid.Column="5"/>
-            <Image Source="@drawable/downarrow.png" Grid.Row="7" Grid.Column="3"/>
-            <Image Source="@drawable/buttonid1.png" Grid.Row="3" Grid.Column="5"/>      
-            <Image Source="@drawable/Npo1.png" Grid.Row="5" Grid.Column="4"/>
-            <Image Source="@drawable/uparrow.png" Grid.Row="7" Grid.Column="3"/>
-            <Image Source="@drawable/Speaker.png" Grid.Row="5" Grid.Column="4"/>
-            <Image Source="@drawable/downarrow.png" Grid.Row="7" Grid.Column="7"/>
+            <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="2"/>
+            <Image Source="@drawable/buttonid1.png" Grid.Row="2" Grid.Column="3"/>
+            <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="4"/>
+            <Image Source="@drawable/Tv.png" Grid.Row="3" Grid.Column="2"/>
+            <Image Source="@drawable/Npo1.png" Grid.Row="3" Grid.Column="3"/>
+            <Image Source="@drawable/Speaker.png" Grid.Row="3" Grid.Column="4"/>
+            <Image Source="@drawable/downarrow.png" Grid.Row="4" Grid.Column="2"/>
+            <Image Source="@drawable/downarrow.png" Grid.Row="4" Grid.Column="4"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
