@@ -41,10 +41,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tv.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="YouTube.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -69,9 +65,6 @@
     </Compile>
     <Compile Include="Videoplayer.xaml.cs">
       <DependentUpon>Videoplayer.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tv.xaml.cs">
-      <DependentUpon>Tv.xaml</DependentUpon>
     </Compile>
     <Compile Include="YouTube.xaml.cs">
       <DependentUpon>YouTube.xaml</DependentUpon>
