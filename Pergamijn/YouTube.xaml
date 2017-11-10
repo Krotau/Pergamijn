@@ -15,15 +15,17 @@
                 <RowDefinition Height="100" />
                 <RowDefinition Height="50" />
             </Grid.RowDefinitions>
-            <ColumnDefinition Width="50" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="50" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="50" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="50" />
+
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="50" />
             </Grid.ColumnDefinitions>
+            
             <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
             <Image Source="@drawable/Zoekbalk.png" Grid.Row="1" Grid.Column="3"/>
             <Image Source="@drawable/Favorite.png" Grid.Row="1" Grid.Column="5"/>
