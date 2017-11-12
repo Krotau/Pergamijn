@@ -11,5 +11,21 @@ namespace Pergamijn
         {
             InitializeComponent();
         }
+
+        void OnTapBackYoutube(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            // Do something
+
+            Navigation.PopModalAsync();
+        }
+
+        void OnTapVideoYoutube(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            // Do something
+
+            Navigation.PushAsync(new Videoplayer());
+        }
     }
 }

@@ -4,19 +4,22 @@
              x:Class="Pergamijn.Videoplayer"
              BackgroundColor="#ecb841">
     <ContentPage.Content>
+        <!--Spacing toegevoegd zodat de pictogrammen niet tegen elkaar staan-->
         <Grid ColumnSpacing="90" RowSpacing="10">
+            <!--Deze maakt 4 rijen voor de pictogrammen-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="100" />
                 <RowDefinition Height="150" />
-                <RowDefinition Height="230" />
+                <RowDefinition Height="200" />
                 <RowDefinition Height="150" />
             </Grid.RowDefinitions>
+            <!-- Deze maakt 3 kolommen voor de pictogrammen-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="150" />
                 <ColumnDefinition Width="230" />
-                <ColumnDefinition Width="100" />
             </Grid.ColumnDefinitions>
-
+            <!--Een image wordt toegevoegd als button, zodat deze een functionaliteit heeft-->
             <Image Source="@drawable/Backbutton.png" Grid.Row="0" Grid.Column="0">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
@@ -24,12 +27,12 @@
                         NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            
-            <Image Source="@drawables/uparrow.png" Grid.Row="1" Grid.Column="2" />
-            <Image Source="@drawables/downarrow.png" Grid.Row="3" Grid.Column="2" />
-            <Image Source="@drawables/Speaker.png" Grid.Row="2" Grid.Column="2" />
-            <Image Source="@drawables/Searchresult.png" Grid.Row="1" Grid.Column="1" />
-            <Image Source="@drawables/Card.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="1"/>
+            <!--De verschillende images voor het ontwerp worden toegevoegd, deze hebben op het moment geen functionaliteit-->
+            <Image Source="@drawables/uparrow.png" Grid.Row="1" Grid.Column="3" />
+            <Image Source="@drawables/downarrow.png" Grid.Row="3" Grid.Column="3" />
+            <Image Source="@drawables/Speaker.png" Grid.Row="2" Grid.Column="3" />
+            <Image Source="@drawables/Searchresult.png" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Image Source="@drawables/Card.png" Grid.Row="2" Grid.RowSpan="2"  Grid.Column="1" Grid.ColumnSpan="2"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

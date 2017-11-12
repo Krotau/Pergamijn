@@ -31,5 +31,13 @@ namespace Pergamijn
 
             Navigation.PushModalAsync(new Remote());
         }
+
+        void OnTapInlog(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+            Navigation.PushModalAsync(new Inlogscherm());
+        }
+
     }
 }
