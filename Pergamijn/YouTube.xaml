@@ -35,7 +35,7 @@
             </Image>
             
             <!-- Dit zorgt voor een fucntionele (image)button die je doorstuurt naar de videoplayer, 'ColmnSpan' heeft hier dezelfe functie als bij de afbeeldingen -->
-            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="3">
+            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="2">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                             Tapped="OnTapVideoYoutube"
@@ -44,11 +44,9 @@
             </Image>
 
             <!-- Dit zijn de benodigde afbeeldingen, met er achter hun positie in het Grid, 'ColmnSpan' spant als het waren de afbeeldingen over een x aantal kolommen -->
-            <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
             <Image Source="@drawable/Zoekbalk.png" Grid.Row="1" Grid.ColumnSpan="3"  Grid.Column="2"/>
             <Image Source="@drawable/Favorite.png" Grid.Row="1" Grid.Column="5"/>
-            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2"  Grid.Column="3"/>
-            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="2"/>
+            <Image Source="@drawable/Youtube.png" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="3"/>
             <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="2"/>
             <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="3"/>
             <Image Source="@drawable/Youtube.png" Grid.Row="3" Grid.Column="4"/>

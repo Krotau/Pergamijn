@@ -35,7 +35,6 @@
             </Image>
 
             <!-- Dit zijn de benodigde afbeeldingen, met erachter hun positie in het Grid, 'ColmnSpan' spant als het waren de afbeeldingen over een x aantal kolommen -->
-            <Image Source="@drawable/Backbutton.png" Grid.Row="1" Grid.Column="1"/>
             <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="2"/>
             <Image Source="@drawable/buttonid1.png" Grid.Row="2" Grid.Column="3"/>
             <Image Source="@drawable/uparrow.png" Grid.Row="2" Grid.Column="4"/>
