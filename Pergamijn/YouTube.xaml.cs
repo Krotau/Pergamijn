@@ -25,7 +25,7 @@ namespace Pergamijn
             var imageSender = (Image)sender;
             // Do something
 
-            Navigation.PushAsync(new Videoplayer());
+            Navigation.PushModalAsync(new Videoplayer());
         }
     }
 }
